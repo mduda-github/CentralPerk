@@ -42,4 +42,4 @@ Elevate your coffee shop management with Central Perk, the modern solution for c
 
 ## Screenshot
 
-![Image](https://github.com/mduda-github/CentralPerk.git/blob/main/assets/CentralPerk.png)
+![Image](https://github.com/mduda-github/CentralPerk/blob/main/assets/CentralPerk.png)
