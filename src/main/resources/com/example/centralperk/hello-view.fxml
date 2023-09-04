@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.centralperk.HelloController">
+   <children>
+      <Label alignment="CENTER" layoutX="225.0" layoutY="30.0" prefHeight="75.0" prefWidth="350.0" text="Central Perk">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Separator layoutY="117.0" prefHeight="18.0" prefWidth="800.0" />
+      <HBox layoutX="42.0" layoutY="162.0" prefHeight="55.0" prefWidth="716.0">
+         <children>
+            <Button disable="true" mnemonicParsing="false" prefHeight="56.0" prefWidth="117.0" text="Nowy Product">
+               <HBox.margin>
+                  <Insets right="25.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button disable="true" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="117.0" text="Menu">
+               <HBox.margin>
+                  <Insets right="25.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="bNewOrder" layoutX="127.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleOnNewOrderClick" prefHeight="55.0" prefWidth="143.0" text="Nowe Zamówienie">
+               <HBox.margin>
+                  <Insets right="25.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button disable="true" layoutX="244.0" layoutY="10.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="117.0" text="Pracownicy">
+               <HBox.margin>
+                  <Insets right="25.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <ListView fx:id="lvNewOrders" layoutX="42.0" layoutY="300.0" prefHeight="200.0" prefWidth="260.0" />
+      <Label layoutX="42.0" layoutY="269.0" text="Nowe zamówienia">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
