@@ -39,3 +39,7 @@ We welcome your feedback and are here to assist you with any questions or issues
 Central Perk is created and maintained by mduda-github. For inquiries or collaborations, please don't hesitate to contact us.
 
 Elevate your coffee shop management with Central Perk, the modern solution for coffee enthusiasts and cafe owners alike!
+
+## Screenshot
+
+![Image](https://github.com/mduda-github/CentralPerk.git/blob/main/assets/CentralPerk.png)
